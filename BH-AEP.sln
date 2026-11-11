@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{654CD05C-98E5-4BB6-9B9A-51E3A23FEEB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BH-AEP.Domain", "src\BH-AEP.Domain\BH-AEP.Domain.csproj", "{FCCBEB70-B85C-46E3-8E1D-68F22542ECA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BH-AEP.Application", "src\BH-AEP.Application\BH-AEP.Application.csproj", "{E498678B-D449-413D-9726-ABAADA20B15E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BH-AEP.Infrastructure", "src\BH-AEP.Infrastructure\BH-AEP.Infrastructure.csproj", "{1C7BBCA1-EC2B-41A7-A593-1CF1EF01D0F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BH-AEP.Web", "src\BH-AEP.Web\BH-AEP.Web.csproj", "{914F84AA-6984-4690-A193-2111DF11AB79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{802DB9CB-B6DC-445F-950C-07A4963CDF7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BH-AEP.ResetAdmin", "tools\ResetAdminPassword\BH-AEP.ResetAdmin.csproj", "{201732BC-DC07-4069-A2F1-456C87818976}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCCBEB70-B85C-46E3-8E1D-68F22542ECA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCCBEB70-B85C-46E3-8E1D-68F22542ECA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCCBEB70-B85C-46E3-8E1D-68F22542ECA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCCBEB70-B85C-46E3-8E1D-68F22542ECA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E498678B-D449-413D-9726-ABAADA20B15E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E498678B-D449-413D-9726-ABAADA20B15E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E498678B-D449-413D-9726-ABAADA20B15E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E498678B-D449-413D-9726-ABAADA20B15E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C7BBCA1-EC2B-41A7-A593-1CF1EF01D0F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C7BBCA1-EC2B-41A7-A593-1CF1EF01D0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C7BBCA1-EC2B-41A7-A593-1CF1EF01D0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C7BBCA1-EC2B-41A7-A593-1CF1EF01D0F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{914F84AA-6984-4690-A193-2111DF11AB79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{914F84AA-6984-4690-A193-2111DF11AB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{914F84AA-6984-4690-A193-2111DF11AB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{914F84AA-6984-4690-A193-2111DF11AB79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{201732BC-DC07-4069-A2F1-456C87818976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{201732BC-DC07-4069-A2F1-456C87818976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{201732BC-DC07-4069-A2F1-456C87818976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{201732BC-DC07-4069-A2F1-456C87818976}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FCCBEB70-B85C-46E3-8E1D-68F22542ECA3} = {654CD05C-98E5-4BB6-9B9A-51E3A23FEEB2}
+		{E498678B-D449-413D-9726-ABAADA20B15E} = {654CD05C-98E5-4BB6-9B9A-51E3A23FEEB2}
+		{1C7BBCA1-EC2B-41A7-A593-1CF1EF01D0F2} = {654CD05C-98E5-4BB6-9B9A-51E3A23FEEB2}
+		{914F84AA-6984-4690-A193-2111DF11AB79} = {654CD05C-98E5-4BB6-9B9A-51E3A23FEEB2}
+		{201732BC-DC07-4069-A2F1-456C87818976} = {802DB9CB-B6DC-445F-950C-07A4963CDF7A}
+	EndGlobalSection
+EndGlobal
